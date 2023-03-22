@@ -33,7 +33,7 @@ Config.SmeltOre = {
 }
 Config.SellMetal = {
 
-    Pos = vector3(1067.968017578125, -1948.8076171875, 31.01795196533203),
+    Pos = vector3(407.768017578125, -357.8076171875, 46.84795196533203),
     Sprite = 617,
     Scale = 1.0,
     Colour = 5
@@ -64,7 +64,7 @@ Config.LEGEND = {
 
 
 Config.pedHeading = 205.71334
-Config.sellpedHeading = 202.55494689941406
+Config.sellpedHeading = 93.33494689941406
 Config.mineDuration = 1000
 Config.washDuration = 2000
 Config.smeltDuration = 4000

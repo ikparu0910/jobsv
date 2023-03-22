@@ -14,8 +14,8 @@ Citizen.CreateThread(function()
     local pedhash = GetHashKey("csb_trafficwarden")
 
 
-    loadModel("csb_trafficwarden")
-    local pedhash2 = GetHashKey("csb_trafficwarden")
+    loadModel("cs_paper")
+    local pedhash2 = GetHashKey("cs_paper")
 
     if firstSpawn == false then
         local pedClaimPos = Config.ClaimJob.Pos
@@ -76,17 +76,6 @@ function MP:BlipThread()
             AddTextComponentString      (TranslateCap('blip_claimjob'))
             EndTextCommandSetBlipName   (blip1)
 
-            local zoneSellMetal = Config.SellMetal
-                local blip2 = AddBlipForCoord(zoneSellMetal.Pos)
-                SetBlipSprite(blip2, zoneSellMetal.Sprite)
-                SetBlipDisplay              (blip2, 2)
-                SetBlipScale                (blip2, zoneSellMetal.Scale )
-                SetBlipColour               (blip2, zoneSellMetal.Colour)
-                SetBlipAsShortRange         (blip2, true)
-                SetBlipHighDetail           (blip2, true)
-                BeginTextCommandSetBlipName ("STRING")
-                AddTextComponentString      (TranslateCap('blip_sellmetal'))
-                EndTextCommandSetBlipName   (blip2)
     end)
 end
 
