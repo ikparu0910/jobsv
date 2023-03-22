@@ -1,0 +1,16 @@
+Locales['en'] = {
+    ['press_open_menu'] = 'Nhấn ~g~[E]~w~ để truy cập',
+    ['blip_claimjob'] = "~b~[Thợ may]~w~ Nhận việc",
+    ['blip_spinning'] = "~b~[Thợ may]~w~ Kéo sợi",
+    ['blip_cottonfield'] = "~b~[Thợ may]~w~ Cánh đồng bông",
+    ['blip_sew'] = "~b~[Thợ may]~w~ May áo",
+    ['claimJob_success'] = "Nhận việc thành công",
+    ['menu_sell'] = "[Thợ may] Thương nhân",
+    ['accept'] = "Nhận việc",
+    ['cancel'] = "Huỷ việc",
+    ['menu_claim'] = "Bạn muốn làm nghề thợ may?",
+    ['sell_clothes'] = "Bán quần áo",
+    ['action_pickup'] = 'Nhấn ~g~[E]~w~ hái bông',
+    ['action_spinning'] = 'Nhấn ~g~[E]~w~ để kéo sợi',
+    ['action_sew'] = 'Nhấn ~g~[E]~w~ để may áo',
+}
